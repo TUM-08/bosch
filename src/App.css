@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f6f7;
+}
+
+/* NAVBAR */
+.navbar {
+  background: #0077ff;
+  padding: 20px 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+
+
+.page-header h3 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+/* GRID (2 COLUNAS IGUAL IMAGEM) */
+.grid-produtos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+/* CARD */
+.item-card {
+  background: #e0e0e0; 
+  border-radius: 5px;
+  padding: 30px;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  box-shadow: none;
+  transition: none;
+}
+
+/* REMOVE EFEITO HOVER GRANDE */
+.item-card:hover {
+  transform: none;
+}
+
+/* ÍCONE */
+.item-img {
+  font-size: 50px;
+  color: #0b5ed7;
+}
+
+/* TEXTO */
+.item-info h4 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.item-info p {
+  margin: 10px 0;
+  color: #333;
+  line-height: 1.5;
+}
+
+/* BOTÃO */
+.btn-action {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: #0b5ed7;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  width: auto;
+}
+
+.btn-action:hover {
+  background: #084298;
+}
